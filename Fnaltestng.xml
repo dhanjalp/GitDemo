@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FnalTestScenario">
+
+	<groups>
+		<run>
+			<include name="smoke"></include>
+
+		</run>
+	</groups>
+
+	<test name="SoftAssert Test">
+		<classes>
+			<class name="testNGTestCases.TestCase1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="HardAssert Test">
+		<classes>
+
+			<class name="testNGTestCases.TestCase2" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Dependency Test">
+		<classes>
+			<class name="testNGTestCases.TestCase3" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- FnalTestScenario -->

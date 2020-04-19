@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FnalTestScenario (0)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SoftAssert Test(failed)">
+    <classes>
+      <class name="testNGTestCases.TestCase1">
+        <methods>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- testNGTestCases.TestCase1 -->
+    </classes>
+  </test> <!-- SoftAssert Test(failed) -->
+  <test thread-count="5" name="HardAssert Test(failed)">
+    <classes>
+      <class name="testNGTestCases.TestCase2">
+        <methods>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- testNGTestCases.TestCase2 -->
+    </classes>
+  </test> <!-- HardAssert Test(failed) -->
+  <test thread-count="5" name="Dependency Test(failed)">
+    <classes>
+      <class name="testNGTestCases.TestCase3">
+        <methods>
+          <include name="doUserReg"/>
+          <include name="doUserLogin"/>
+        </methods>
+      </class> <!-- testNGTestCases.TestCase3 -->
+    </classes>
+  </test> <!-- Dependency Test(failed) -->
+</suite> <!-- Failed suite [FnalTestScenario (0)] -->
